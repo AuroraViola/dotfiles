@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# dirs shortcuts
+alias \
+	d="cd ~/Scrivania && ls" \
+	D="cd ~/Scaricati && ls" \
+	V="cd ~/Video && ls" \
+	h="cd ~/ && ls" \
+	sc="cd ~/.local/bin && ls"
+
+# files shortcuts
+alias \
+	zrc="nvim ~/.zshrc" \
+	arc="nvim ~/.config/aliasrc" \
+	src="nvim ~/.config/shortcutrc" \
+	vrc="nvim ~/.config/nvim/init.vim"

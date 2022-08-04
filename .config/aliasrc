@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Add verbosity
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	mkdir="mkdir -pv"
+
+# Colorize output
+alias \
+	ls="ls -hH --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto"
+
+# Abbreviate commands
+alias \
+	v="nvim" \
+	free="free -mt" \
+	yt="yt-dlp -i" \
+	yta="yt-dlp -x -f bestaudio/best" \
+	p="sudo pacman" \
+	g="git"
