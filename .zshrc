@@ -1,4 +1,4 @@
-# Arci's config for zsh
+# Aurora's config for zsh
 
 # Enable colors and change prompt:
 autoload -U colors && colors
@@ -57,4 +57,4 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

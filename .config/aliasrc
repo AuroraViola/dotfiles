@@ -19,5 +19,5 @@ alias \
 	free="free -mt" \
 	yt="yt-dlp -i" \
 	yta="yt-dlp -x -f bestaudio/best" \
-	p="sudo pacman" \
+	p="sudo dnf" \
 	g="git"

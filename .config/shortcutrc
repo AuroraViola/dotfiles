@@ -6,7 +6,6 @@ alias \
 	D="cd ~/Scaricati && ls" \
 	V="cd ~/Video && ls" \
 	h="cd ~/ && ls" \
-	sc="cd ~/.local/bin && ls"
 
 # files shortcuts
 alias \

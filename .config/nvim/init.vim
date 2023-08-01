@@ -13,7 +13,6 @@ call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"
 	Plug 'junegunn/goyo.vim'
 	Plug 'PotatoesMaster/i3-vim-syntax'
 	Plug 'jreybert/vimagit'
-	Plug 'lukesmithxyz/vimling'
 	Plug 'vimwiki/vimwiki'
 	Plug 'bling/vim-airline'
 	Plug 'tpope/vim-commentary'
